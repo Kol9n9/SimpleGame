@@ -15,7 +15,7 @@
 #include <fstream>
 #include <string>
 #include <sstream>
-
+enum MovementStates { IDLE = 0, MOVING, MOVE_LEFT, MOVE_RIGHT, MOVE_UP, MOVE_DOWN };
 class MovementComponents
 {
 private:
@@ -32,7 +32,8 @@ public:
 	virtual ~MovementComponents();
 	//ACCESSORS
 	const sf::Vector2f& GetVelocity() const;
-	const bool Idle() const;
+	const bool GetState(const unsigned short State) const;
+	
 	//FUNCTIONS
 	void Move(const float DirX, const float DirY, const float &dt);
 	void Update(const float &dt);

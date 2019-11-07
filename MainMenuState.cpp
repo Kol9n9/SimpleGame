@@ -145,6 +145,10 @@ void MainMenuState::UpdateButtons()
 	{
 		this->States->push(new GameState(this->window, this->SupportedKeys, this->States));
 	}
+	if (this->Buttons["EDITOR_STATE"]->isPressed())
+	{
+		this->States->push(new EditorState(this->window, this->SupportedKeys, this->States));
+	}
 	if (this->Buttons["BALL_STATE"]->isPressed())
 	{
 		this->States->push(new BallState(this->window, this->SupportedKeys, this->States));

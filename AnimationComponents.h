@@ -46,11 +46,15 @@ private:
 				this->Sprite.setTextureRect(this->CurrentRect);
 			}
 		}
-		void Pause();
-		void Reset();
+		void Reset()
+		{
+			this->Timer = this->AnimationTimer;
+			this->CurrentRect = this->StartRect;
+		}
 	};
 	//VARIABLES
 	std::map<std::string, Animation*> AnimationList;
+	Animation* LastAnimation;
 	sf::Sprite& Sprite;
 	sf::Texture& TextureSheet;
 	//INITIALIZER FUNCTIONS
