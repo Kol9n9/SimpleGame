@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{e0827e86-40b4-4b0d-b542-7c78f3104d65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\Player">
+      <UniqueIdentifier>{6c75a2c7-7e3a-4cb4-b0ae-4f17f9be21a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\Components">
+      <UniqueIdentifier>{fd1454e0-e3cc-4098-b21a-bc44685a01ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States">
+      <UniqueIdentifier>{d5f6d4d9-5fbf-4bc2-864a-e201d0ae7f07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\Headers">
+      <UniqueIdentifier>{2957af30-0bc6-4bdd-982a-c447481dcff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\Sources">
+      <UniqueIdentifier>{f3909bb2-65a7-48d7-abf8-9307c5e29a10}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>States\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>States\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>States\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Entity\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementComponents.cpp">
+      <Filter>Entity\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationComponents.cpp">
+      <Filter>Entity\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="BallState.cpp">
+      <Filter>States\Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>States\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>States\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.h">
+      <Filter>States\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Entity\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementComponents.h">
+      <Filter>Entity\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationComponents.h">
+      <Filter>Entity\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="BallState.h">
+      <Filter>States\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
